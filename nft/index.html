@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nft</title>
+    <link rel="stylesheet" href="styles/normalize.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="header__logo"></a>
+        <div class="form">
+            <button class="form__button"></button>
+            <input type="search" class="form__input" placeholder="Search items and collections">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item">
+                    <a href="" class="header__link">
+                        Collections
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a href="" class="header__link">
+                        Feature
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a href="" class="header__link">
+                        FAQ
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a href="" class="header__link header__link_gradient">
+                        Select Wallet
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__btn">
+            <button class="header__search-btn"></button>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="header__list-btn"></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Collections</a>
+                    <a href="#">Feature</a>
+                    <a href="#">FAQ</a>
+                    <a href="#" class="header__link_gradient">Select Wallet</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <section>
+                <div class="main">
+                    <div class="main__text">
+                        <h1 class="main__title">
+                            Create, Sell & Collect Your Own Creative NFT
+                        </h1>
+                        <p class="main__desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repellat ducimus natus quos saepe.
+                        </p>
+                        <a class="main__btn main__btn_gradient" href="#">
+                            Explore Now
+                        </a>
+                        <a class="main__btn" href="#">
+                            Sell NFT
+                        </a>
+                        <ul class="main__list">
+                            <li class="main__item">
+                                <span class="main__span">
+                                    37k+
+                                </span>
+                                Artworks
+                            </li>
+                            <li class="main__item">
+                                <span class="main__span">
+                                    27k+
+                                </span>
+                                Artists
+                            </li>
+                            <li class="main__item">
+                                <span class="main__span">
+                                    90k+
+                                </span>
+                                Aucations
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main__image">
+                        <img class="main__img" src="/images/Cat.png" alt="cat">
+                    </div>
+                </div>
+                <div class="company">
+                    <img class="company__img" src="images/quadlabs-logo-svg-vector.svg" alt="QuadLab">
+                    <img class="company__img" src="images/discord-wordmark-1.svg" alt="CDT">
+                    <img class="company__img" src="images/studio-ghibli-logo.svg" alt="DualSlot">
+                </div>
+        </section>
+        <section>
+            <h2 class="title">
+                Featured Artwork
+            </h2>
+            <p class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <div class="card">
+                <div class="card__item">
+                    <div class="card_cover">
+                        <img class="card__img" src="/images/cat01.png" alt="01">
+                    </div>
+                    <div class="card__info">
+                        <div>
+                            <p class="card__nick">
+                                @JOHNY
+                            </p>
+                            <p class="card_author">
+                                Yellow Painting
+                            </p>
+                        </div>
+                        <p class="card__bid">
+                            Current Bid
+                            <span class="card_price">
+                                0.005 ETH
+                            </span>
+                        </p>
+                    </div>
+                    <a href="#" class="card__link">Place a Bid</a>
+                </div>
+                <div class="card__item">
+                    <div class="card_cover">
+                        <img class="card__img" src="/images/cat02.jpg" alt="02">
+                    </div>
+                    <div class="card__info">
+                        <div>
+                            <p class="card__nick">
+                                @JOHNY
+                            </p>
+                            <p class="card_author">
+                                Yellow Painting
+                            </p>
+                        </div>
+                        <p class="card__bid">
+                            Current Bid
+                            <span class="card_price">
+                                0.005 ETH
+                            </span>
+                        </p>
+                    </div>
+                    <a href="#" class="card__link">Place a Bid</a>
+                </div>
+                <div class="card__item">
+                    <div class="card_cover">
+                        <img class="card__img" src="/images/cat03.jpg" alt="03">
+                    </div>
+                    <div class="card__info">
+                        <div>
+                            <p class="card__nick">
+                                @JOHNY
+                            </p>
+                            <p class="card_author">
+                                Yellow Painting
+                            </p>
+                        </div>
+                        <p class="card__bid">
+                            Current Bid
+                            <span class="card_price">
+                                0.005 ETH
+                            </span>
+                        </p>
+                    </div>
+                    <a href="#" class="card__link">Place a Bid</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="title">
+                Freaquently Asked Question
+            </h2>
+            <p class="desc">
+                Wanna Ask Somethings?
+            </p>
+            <div class="faq">
+                <div class="faq__item">
+                    <button class="collapsible">Lorem ipsum dolor sit amet?</button>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                    </div>
+                    <button class="collapsible">Lorem ipsum dolor sit amet?</button>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                    </div>
+                    <button class="collapsible">Lorem ipsum dolor sit amet?</button>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                    </div>
+                </div>
+            
+                <div class="faq__item">
+                    <button class="collapsible">Lorem ipsum dolor sit amet?</button>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                    </div>
+                    <button class="collapsible">Lorem ipsum dolor sit amet?</button>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                    </div>
+                    <button class="collapsible">Lorem ipsum dolor sit amet?</button>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="banner">
+            <h3 class="banner__tittle">
+                Get ready to collect our NFT
+            </h3>
+            <a href="#" class="banner__link">Get Started</a>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

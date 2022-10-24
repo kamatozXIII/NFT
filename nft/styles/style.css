@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(113.49deg, #0fcfac -30.3%, #0b586e 58.12%) no-repeat;
+    font-weight: 500;
+    color: #fff;
+}
+
+.header {
+    max-width: 1197px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px 110px 15px; 
+}
+
+.header__logo {
+    display: block;
+    width: 130px;
+    height: 50px;
+    background-image: url(../images/GitLab_logo.svg);
+    background-repeat: no-repeat;
+
+}
+
+.form {
+    position: relative;
+}
+
+.form__button {
+    display: block;
+    background-image: url(../images/search.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 10px;
+}
+
+.form__input {
+    width: 390px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    color: #fff;
+}
+
+.form__input:focus {
+    outline: none;
+}
+
+.form__input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.header__list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding-left: 0;
+}
+
+.header__link {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.header__link_gradient {
+    background: linear-gradient(359deg, #350fcf -30.3%, #1cb1db 58.12%) no-repeat;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.container {
+    max-width: 1197px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__text {
+    flex-basis: 490px;
+}
+
+.main__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.main__desc {
+    font-size: 20px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+
+.main__btn {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+}
+
+.main__btn_gradient {
+    background: linear-gradient(359deg, #350fcf -30.3%, #1cb1db 58.12%) no-repeat;
+    margin-right: 20px;
+}
+
+.main__image {
+    flex-basis: 48%;
+}
+
+.main__img {
+    width: 100%;
+}
+
+.main__list {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    gap: 110px;
+    margin-top: 35px;
+}
+
+.main__item {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+
+.main__span {
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.company__img {
+    width: 30%;
+    height: 80px;
+}
+
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.desc {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin: 0 auto;
+    max-width: 350px;
+    line-height: 1.5;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.card__item {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 26px;
+    flex-basis: 32.5%;
+    box-sizing: border-box;
+    transition: .2s;
+}
+
+.card_cover {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 380px;
+}
+
+.card__img {
+    width: 100%;
+    height: 380px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.card__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__nick {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.card_author {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card__bid {
+    text-align: right;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.card_price {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.card__link {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    background: linear-gradient(359deg, #350fcf -30.3%, #1cb1db 58.12%) no-repeat;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.card__item:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.card__link:hover {
+    background: rgba(255, 255, 255, 0.5);
+    border:solid 0.1px #0b586e;
+    color: #0b586e;
+}
+
+.collapsible {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: transparent;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+    font-weight: bold;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq__item {
+    flex-basis: 48%;
+}
+
+.banner {
+    background: linear-gradient(359deg, #350fcf -30.3%, #1cb1db 58.12%) no-repeat;
+    border-radius: 10px;
+    padding: 60px 15px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.banner__tittle {
+    font-size: 50px; 
+    line-height: 1.5;
+    font-weight: 700;
+    max-width: 500px;
+    margin: 0 auto 35px;
+}
+
+.banner__link {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__btn {
+    display: none;
+}
+
+.header__search-btn,
+.header__list-btn {
+    background: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+
+.header__search-btn {
+    background-image: url(/images/search-header.svg);
+}
+
+.header__list-btn {
+    background-image: url(/images/burger-header.svg);
+    margin-left: 15px;
+}
+
+
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #55cbba;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+@media(max-width: 1130px) {
+    .header__list {
+        gap: 20px;
+    }
+
+    .header,
+    .container {
+        max-width: 900px;
+    }
+
+    .form__input {
+        padding: 10px 10px 10px 40px;
+        width: 300px;
+    }
+
+    .main__item {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 860px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .form,
+    .header__nav {
+        display: none;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card__item {
+        margin-bottom: 15px;
+    }
+
+    .header__btn {
+        display: flex;
+    }
+}
+
+@media(max-width: 425px) {
+    .main__list {
+        gap: 40px;
+    }
+
+    .company{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq {
+        flex-direction: column;
+    }
+
+}
+
+
+@media(max-width: 325px) {
+    .main__btn{
+        display: block;
+        max-width: 125px;
+        margin: 0 auto 10px;
+    }
+
+}
+
